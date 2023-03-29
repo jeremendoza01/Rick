@@ -1,0 +1,63 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: rgba(161, 223, 223, 0.541);
+}
+* {
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    gap: 25px;
+
+}
+
+.img-container{
+    display: flex;
+    flex: content;
+}
+
+article:hover{
+    color: #777;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    border: 5px solid rgb(49, 136, 158);
+}
+
+article{
+    padding: 25px;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2{
+    padding-top: 10px;
+}
+span{
+    font-weight: bold;
+    padding: 2px;
+    font-size: 17px;
+}
+p{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+}
+
+.div-pers{
+    padding: 20px;
+
+}
